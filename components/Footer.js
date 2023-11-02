@@ -13,9 +13,9 @@ function Footer() {
             <p>Phone: 044 9345637</p>
           </div>
           <ul className="flex space-x-4">
-            <li><a href="#" className="hover:underline">Privacy Policy</a></li>
-            <li><a href="#" className="hover:underline">Terms of Service</a></li>
-            <li><a href="#" className="hover:underline">Contact</a></li>
+            <li><a href="#" className="relative text-xl block w-fit after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition after:duration-300 after:origin-center">Privacy Policy</a></li>
+            <li><a href="#" className="relative text-xl block w-fit after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition after:duration-300 after:origin-center">Terms of Service</a></li>
+            <li><a href="#" className="relative text-xl block w-fit after:block after:content-[''] after:absolute after:h-[3px] after:bg-white after:w-full after:scale-x-0 hover:after:scale-x-100 after:transition after:duration-300 after:origin-center">Contact</a></li>
           </ul>
         </div>
       </footer>
